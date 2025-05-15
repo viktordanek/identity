@@ -12,8 +12,8 @@
                         in
                             pkgs.writeShellApplication
                                 {
-                                    name = "generate ssh-key" ;
-                                    runtimeImports = [ pkgs.coreutils pkgs.openssh ] ;
+                                    name = "generate-ssh-key" ;
+                                    runtimeInputs = [ pkgs.coreutils pkgs.openssh ] ;
                                     text =
                                         ''
                                             set -e
