@@ -18,7 +18,7 @@
                                         ''
                                             set -e
                                             mkdir --parents /mount/target &&
-                                            ssh-keygen -f /mount/target/identity" -P "" -C ""
+                                            ssh-keygen -f /mount/target/identity -P "" -C ""
                                         '' ;
                                 } ;
         } ;
