@@ -17,8 +17,8 @@
                                     text =
                                         ''
                                             set -e
-                                            mkdir --parents $1 &&
-                                            ssh-keygen -f $1/identity -P "" -C ""
+                                            mkdir --parents "$1" &&
+                                            ssh-keygen -f "$1/identity" -P "" -C ""
                                         '' ;
                                 } ;
         } ;
